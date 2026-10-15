@@ -62,9 +62,9 @@ func New(cfg Config) *Provider {
 
 func (p *Provider) Capabilities() llm.Capabilities {
 	return llm.Capabilities{
-		MaxContextTokens: p.maxContext,
+		MaxContextTokens:  p.maxContext,
 		SupportsStreaming: true,
-		SupportsSystem:   true,
+		SupportsSystem:    true,
 	}
 }
 
@@ -72,10 +72,10 @@ func (p *Provider) Close() error { return nil }
 
 // chatRequest is the OpenAI chat completion request body.
 type chatRequest struct {
-	Model    string        `json:"model"`
-	Messages []chatMessage `json:"messages"`
-	Stream   bool          `json:"stream,omitempty"`
-	MaxTokens int          `json:"max_tokens,omitempty"`
+	Model     string        `json:"model"`
+	Messages  []chatMessage `json:"messages"`
+	Stream    bool          `json:"stream,omitempty"`
+	MaxTokens int           `json:"max_tokens,omitempty"`
 }
 
 type chatMessage struct {

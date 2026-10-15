@@ -53,20 +53,20 @@ func New(cfg Config) *Provider {
 
 func (p *Provider) Capabilities() llm.Capabilities {
 	return llm.Capabilities{
-		MaxContextTokens: p.maxContext,
+		MaxContextTokens:  p.maxContext,
 		SupportsStreaming: true,
-		SupportsSystem:   true,
+		SupportsSystem:    true,
 	}
 }
 
 func (p *Provider) Close() error { return nil }
 
 type messagesRequest struct {
-	Model     string        `json:"model"`
-	MaxTokens int           `json:"max_tokens"`
-	System    string        `json:"system,omitempty"`
-	Messages  []msgContent  `json:"messages"`
-	Stream    bool          `json:"stream,omitempty"`
+	Model     string       `json:"model"`
+	MaxTokens int          `json:"max_tokens"`
+	System    string       `json:"system,omitempty"`
+	Messages  []msgContent `json:"messages"`
+	Stream    bool         `json:"stream,omitempty"`
 }
 
 type msgContent struct {
