@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/trendvidia/clair/llm"
+	"github.com/belluikit/clair/llm"
 )
 
 // Provider implements llm.Provider for Ollama's API.
@@ -55,9 +55,9 @@ func New(cfg Config) *Provider {
 
 func (p *Provider) Capabilities() llm.Capabilities {
 	return llm.Capabilities{
-		MaxContextTokens: p.maxContext,
+		MaxContextTokens:  p.maxContext,
 		SupportsStreaming: true,
-		SupportsSystem:   true,
+		SupportsSystem:    true,
 	}
 }
 

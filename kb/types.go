@@ -1,7 +1,7 @@
 // Package kb provides a two-tier knowledge base for framework and project documentation.
 package kb
 
-import "github.com/trendvidia/clair/parser"
+import "github.com/belluikit/clair/parser"
 
 // Tier identifies which knowledge base layer a document belongs to.
 type Tier int

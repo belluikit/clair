@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/trendvidia/clair/kb"
-	"github.com/trendvidia/clair/kb/builder"
-	"github.com/trendvidia/clair/parser"
-	"github.com/trendvidia/clair/parser/goparser"
+	"github.com/belluikit/clair/kb"
+	"github.com/belluikit/clair/kb/builder"
+	"github.com/belluikit/clair/parser"
+	"github.com/belluikit/clair/parser/goparser"
 )
 
 func TestProjectKB_IndexAndSearch(t *testing.T) {

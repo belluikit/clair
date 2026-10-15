@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/belluikit/clair/kb"
+	"github.com/belluikit/clair/parser"
 	"github.com/fsnotify/fsnotify"
-	"github.com/trendvidia/clair/kb"
-	"github.com/trendvidia/clair/parser"
 )
 
 // Indexer manages full and incremental indexing of project source code.

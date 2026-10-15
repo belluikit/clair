@@ -1,6 +1,6 @@
 package assistant
 
-import "github.com/trendvidia/clair/kb"
+import "github.com/belluikit/clair/kb"
 
 // BuiltinAssistant provides non-AI code intelligence features.
 // Always works offline with no external dependencies.

@@ -32,12 +32,12 @@ func NewIndexMapping() mapping.IndexMapping {
 	doc := bleve.NewDocumentMapping()
 	doc.AddFieldMappingsAt("id", keywordField())
 	doc.AddFieldMappingsAt("tier", numericField())
-	doc.AddFieldMappingsAt("symbol", textField())    // symbol names
-	doc.AddFieldMappingsAt("package", textField())   // package-qualified searches
-	doc.AddFieldMappingsAt("kind", keywordField())   // exact match: "func", "type", etc.
-	doc.AddFieldMappingsAt("signature", textField()) // function/type signatures
-	doc.AddFieldMappingsAt("doc", textField())       // documentation text
-	doc.AddFieldMappingsAt("example", textField())   // usage examples
+	doc.AddFieldMappingsAt("symbol", textField())        // symbol names
+	doc.AddFieldMappingsAt("package", textField())       // package-qualified searches
+	doc.AddFieldMappingsAt("kind", keywordField())       // exact match: "func", "type", etc.
+	doc.AddFieldMappingsAt("signature", textField())     // function/type signatures
+	doc.AddFieldMappingsAt("doc", textField())           // documentation text
+	doc.AddFieldMappingsAt("example", textField())       // usage examples
 	doc.AddFieldMappingsAt("filePath", keywordField())   // exact match
 	doc.AddFieldMappingsAt("line", numericField())       // not searched
 	doc.AddFieldMappingsAt("references", keywordField()) // exact match on framework refs

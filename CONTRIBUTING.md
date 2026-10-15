@@ -5,7 +5,7 @@ Thanks for your interest in contributing. This document covers how to get set up
 ## Getting started
 
 ```
-git clone git@github.com:trendvidia/clair.git
+git clone git@github.com:belluikit/clair.git
 cd clair
 go build ./...
 go test ./...
