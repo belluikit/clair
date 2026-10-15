@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/trendvidia/clair/parser"
+	"github.com/belluikit/clair/parser"
 )
 
 func TestExtensions(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/trendvidia/clair/kb"
-	"github.com/trendvidia/clair/llm"
-	"github.com/trendvidia/clair/privacy"
+	"github.com/belluikit/clair/kb"
+	"github.com/belluikit/clair/llm"
+	"github.com/belluikit/clair/privacy"
 )
 
 // AIAssistant provides LLM-powered code assistance features.

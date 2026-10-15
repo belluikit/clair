@@ -3,9 +3,9 @@
 package assistant
 
 import (
-	"github.com/trendvidia/clair/kb"
-	"github.com/trendvidia/clair/llm"
-	"github.com/trendvidia/clair/privacy"
+	"github.com/belluikit/clair/kb"
+	"github.com/belluikit/clair/llm"
+	"github.com/belluikit/clair/privacy"
 )
 
 // EditorContext provides information about the developer's current editing state.

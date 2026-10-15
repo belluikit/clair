@@ -14,9 +14,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/trendvidia/clair/kb"
-	"github.com/trendvidia/clair/kb/builder"
-	"github.com/trendvidia/clair/parser/goparser"
+	"github.com/belluikit/clair/kb"
+	"github.com/belluikit/clair/kb/builder"
+	"github.com/belluikit/clair/parser/goparser"
 )
 
 func main() {

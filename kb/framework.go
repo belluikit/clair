@@ -3,9 +3,9 @@ package kb
 import (
 	"fmt"
 
+	"github.com/belluikit/clair/parser"
 	"github.com/blevesearch/bleve/v2"
 	"github.com/blevesearch/bleve/v2/search/highlight/highlighter/ansi"
-	"github.com/trendvidia/clair/parser"
 )
 
 // FrameworkKB is a read-only knowledge base for a framework's API.

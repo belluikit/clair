@@ -3,8 +3,8 @@ package kb
 import (
 	"fmt"
 
+	"github.com/belluikit/clair/parser"
 	"github.com/blevesearch/bleve/v2"
-	"github.com/trendvidia/clair/parser"
 )
 
 // ProjectKB is a read-write knowledge base for the user's project.

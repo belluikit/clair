@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/belluikit/clair/kb"
 	"github.com/bmatcuk/doublestar/v4"
-	"github.com/trendvidia/clair/kb"
 )
 
 // Mode controls what data can be sent to LLM providers.

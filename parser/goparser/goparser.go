@@ -9,7 +9,7 @@ import (
 	"go/token"
 	"strings"
 
-	"github.com/trendvidia/clair/parser"
+	"github.com/belluikit/clair/parser"
 )
 
 // GoParser extracts symbols from Go source files.

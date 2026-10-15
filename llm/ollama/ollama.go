@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/trendvidia/clair/llm"
+	"github.com/belluikit/clair/llm"
 )
 
 // Provider implements llm.Provider for Ollama's API.

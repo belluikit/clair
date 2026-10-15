@@ -6,9 +6,9 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/belluikit/clair/kb"
+	"github.com/belluikit/clair/parser"
 	"github.com/blevesearch/bleve/v2"
-	"github.com/trendvidia/clair/kb"
-	"github.com/trendvidia/clair/parser"
 )
 
 // Builder constructs a framework Bleve index from source code and manual entries.

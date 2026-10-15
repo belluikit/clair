@@ -3,8 +3,8 @@ package privacy
 import (
 	"testing"
 
-	"github.com/trendvidia/clair/kb"
-	"github.com/trendvidia/clair/parser"
+	"github.com/belluikit/clair/kb"
+	"github.com/belluikit/clair/parser"
 )
 
 func TestPolicy_CanSendToRemote(t *testing.T) {
